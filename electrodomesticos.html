@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Electrodomesticos</title>
+    <link rel="stylesheet" href="electrodomesticos.css">
+</head>
+<body>
+    <header>
+        <img src="/Imagenes/Logo.jpeg" alt="Logo" width="110" height="90">
+        <h1>Tecno-Shop</h1>
+    </header>
+    <div class="container-title">Electrodomesticos</div>
+    <main>
+        <div class="container-img"></div>
+        <img src="/Imagenes/Arrocera.jpeg" alt="imgagen-producto">
+        <div class="container-info-producto">
+            <div class="container-price">
+                <span>$558.00</span>
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="container-details-product">
+                <div class="form-group">
+                    <label for="color">color</label>
+                    <select name="color" id="color">
+                        <option disabled selected value="">
+                            Escoge una opcion
+                        </option>
+                        <option value="rojo">Rojo</option>
+                        <option value="morado">Morado</option>
+                        <option value="rosa">Rosa</option>
+                        <option value="azul">Azul</option>
+                    </select>
+                </div>
+                <button><div class="btn-clean">Limpiar</div></button>
+            </div>
+
+            <div class="container-add-cart">
+                <div class="container-quantity">
+                    <input type="number" placeholder="1"
+                    value="1" min="1"
+                    class="input-quantity"
+                    />
+                    <div class="btn-increment-decremen">
+                        <i class="fa-solid fa-chevron-up" id="increment"></i>
+                        <i class="fa-solid fa-chevron-down" id="decrement"></i>
+                    </div>
+                </div>
+                <button class="btn-add-to cart">
+                    <i class="fa-solid fa-plus"></i>
+                    Añadir al carrito
+                </button>
+            </div>
+            <div class="container-description">
+                <div class="title-description">
+                    <h4>Descrición</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-description ">
+                    <p>Preparar y mantener caliente el arroz.
+                        Ocupa poco sitio, te ahorra un fuego de
+                         la placa y no necesita supervisión.</p>
+                </div>
+            </div>
+            <div class="container-additional-information">
+                <div class="title-additional-information">
+                    <h4>Informacion Adicional</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-additional-information hidden">
+                    <p>----------</p>
+                </div>
+            </div>
+            <div class="container-reviews">
+                <div class="title-reviews">
+                    <h4>Reseñas</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-reviews hidden">
+                    <p>----------</p>
+                </div>
+            </div>
+            <div class="container-social">
+                <span>Compartir</span>
+                <div class="container-buttons-social">
+                    <a href="#">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-pinterest"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="container-related-product">
+        <h2>Productos Relacionados</h2>
+        <div class="card-list-products">
+            <div class="card">
+                <div class="card-img">
+                    <img src="/Imagenes/Cafetera.jpeg" alt="producto-1">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Cafetera</h3>
+                        <p class="category">
+                            Italiana
+                        </p>
+                    </div>
+                    <div class="price">$345.00</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="/Imagenes/Aspiradora.jpeg" alt="producto-2">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Aspiradora</h3>
+                        <p class="category">
+                            Vertical o de pie
+                        </p>
+                    </div>
+                    <div class="price">$786.00</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="/Imagenes/Microondas.jpeg" alt="producto-3">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Microondas</h3>
+                        <p class="category">
+                            Horno Electrico
+                        </p>
+                    </div>
+                    <div class="price">$655.00</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="/Imagenes/Refigerador.jpeg"alt="producto-4">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Refrigerador</h3>
+                        <p class="category">
+                            Top Mount
+                        </p>
+                    </div>
+                    <div class="price">$5,780.00</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Footer</p> 
+    </footer>
+
+    <script src="https://kit.fontawesome.com/ab2fb7b553.js" crossorigin="anonymous"></script>
+    <script src="electrodomesticos.js"></script>
+
+</body>
+</html>
